@@ -1,0 +1,189 @@
+.App {
+  text-align: left;
+}
+.container {
+  margin-top: 20px;
+}
+.imputDateList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.imputDateList > * {
+  flex: 1 1 20px;
+}
+.reduceFiledSize {
+  width: 50px;
+}
+.reduceFiledSizeYear {
+  width: 70px;
+}
+.FiledSizeUELN {
+  width: 78%;
+}
+.homeUeln span {
+  color: gray;
+}
+.buttonClassUpdate {
+  text-transform: uppercase;
+  width: 40%;
+}
+.homeButton {
+  margin-top: 10px;
+}
+
+.toSpan {
+  margin-top: 60px;
+  text-align: center;
+  color: gray;
+}
+.eqLogoMain {
+  margin-bottom: 30px;
+}
+
+.messageError {
+  color: darkred;
+}
+.searchMain {
+  margin-left: 5px;
+}
+.searchNumber {
+  font-size: 30px;
+  font-weight: 200;
+}
+.searchDate {
+  font-size: 20px;
+  font-weight: 200;
+}
+.searchFirstIcon {
+  margin-right: -40%;
+  font-size: 25px;
+}
+.searchSecondIcon {
+  text-align: right;
+  margin-top: 10px;
+}
+.searchIcon {
+  margin-left: 2px;
+}
+.searchFromTo {
+  color: gray;
+}
+/* locations and heat map css */
+.btn-group {
+  margin: -20px 0px 20px;
+}
+.btn-group button {
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
+  padding: 4px 20px;
+  cursor: pointer;
+  float: left;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: gray;
+}
+.searchLocation {
+  border-radius: 20px 0px 0px 20px;
+  background-color: white;
+}
+.searchHeatMap {
+  border-radius: 0px 20px 20px 0px;
+}
+.btn-group .searchHeatMap {
+  background-color: gainsboro;
+}
+
+/* loading css */
+.lds-spinner {
+  color: official;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-spinner div {
+  transform-origin: 40px 40px;
+  animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 37px;
+  width: 6px;
+  height: 18px;
+  border-radius: 20%;
+  background: green;
+}
+.lds-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .toSpan {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .homeButton {
+    margin-bottom: 30px;
+  }
+}
